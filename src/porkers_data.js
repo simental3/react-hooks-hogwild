@@ -1,3 +1,5 @@
+const medals = ["diamond", "platinum", "gold", "silver", "bronze", "wood"];
+
 const hogs = [
   {
     name: "Babe",
@@ -100,4 +102,5 @@ const hogs = [
   },
 ];
 
+export { medals };
 export default hogs;

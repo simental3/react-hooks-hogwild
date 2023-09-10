@@ -141,6 +141,31 @@ ul {
 }
 
 
+.new-hog-form {
+  border: solid #8989ff 0.1rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.new-hog-form input[type="submit"] {
+  background: #6363ff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 7rem;
+}
+
+.new-hog-form select {
+  width: 7rem;
+}
+
+.new-hog-form input[type="submit"]:hover {
+  filter: brightness(1.2);
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
