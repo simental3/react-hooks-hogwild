@@ -86,7 +86,7 @@ ul {
   float: left;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
+  /* outline: #3B0B0B dotted thick; */
   transition: 0.75s;
   opacity: 1;
 }
@@ -108,9 +108,9 @@ ul {
   opacity: 0.75;
 }
 
-.pigTile h3 {
+/* .pigTile h3 {
   color: #FBB;
-}
+} */
 
 .minPigTile {
   width: 250px;
@@ -139,6 +139,45 @@ ul {
   padding: 1%;
   clear: both;
 }
+
+
+/* CSS I added */
+.new-hog-form {
+  /* border: solid pink 0.1rem; */
+  display: flex;
+  align-items: flex-end;
+}
+
+.new-hog-form input[type="submit"] {
+  background: pink;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 7rem;
+}
+
+.new-hog-form select {
+  width: 7rem;
+}
+
+.new-hog-form input[type="submit"]:hover {
+  filter: brightness(1.2);
+}
+
+
+
+.ui.button {
+  color: white;
+  background-color: rgb(255, 212, 220);
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  color: pink;
+}
+/* End of CSS I added */
+
 
 
 @keyframes App-logo-spin {
